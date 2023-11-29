@@ -5,8 +5,8 @@ This custom fan profile is injected, via OpenCore loading, to the Graphics card 
 
 This profile has the following parameters:
 - Default fan speed = 20% 
-- Med Temp = 60C  (40%)
-- High Temp = 70C (60%)
+- Med Temp = 60C  (40% Fan Speed)
+- High Temp = 70C (60% Fan Speed)
 - Max Temp = 80C
 - Target Temp = 70C
 

@@ -4,7 +4,7 @@ Custom Fan Profile for RX580. Tested on Sapphrine Nitro+, Pulse models. May work
 This custom fan profile is injected, via OpenCore loading, to the Graphics card Device Properties, to achieve a faster fan speed. The default fan profile (stored in video card BIOS) does not start fan spinning until 60C and ram up too slow, so the card would be running a bit too hot under macOS. 
 
 This profile has the following parameters:
-- Default fan speed = 20% 
+- Default fan speed = 20% (Fan will spin constantly at low RPM, by default)
 - Med Temp = 60C  (40% Fan Speed)
 - High Temp = 70C (60% Fan Speed)
 - Max Temp = 80C
